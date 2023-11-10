@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/three/META"
+  "_build/install/default/lib/three/dune-package"
+  "_build/install/default/lib/three/opam"
+]
+bin: [
+  "_build/install/default/bin/three"
+]
