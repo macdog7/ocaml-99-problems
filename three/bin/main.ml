@@ -1,15 +1,12 @@
-let rec find_element n arr index =
-        match arr with 
-        | [] -> None 
-        | hd :: _ when index = n -> Some hd 
-        | _ :: rest -> find_element n rest (index + 1) 
+let rec find_n n = function 
+        | [] -> None
+        | h :: t -> if n = 1 then Some h else find_n (n - 1) t 
 ;;
 
 
-let test = [5;10;15;20] in 
-let el = find_element 5 test 0 in 
-match el with
+let list = [5;10;15;20] in 
+let el = find_n 2 list in 
+match el with 
+| Some a -> print_int a
 | None -> print_endline "none"
-| Some x -> print_int x 
 ;;
-
