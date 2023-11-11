@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/five/META"
+  "_build/install/default/lib/five/dune-package"
+  "_build/install/default/lib/five/opam"
+]
+bin: [
+  "_build/install/default/bin/five"
+]
