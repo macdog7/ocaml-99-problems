@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/eight/META"
+  "_build/install/default/lib/eight/dune-package"
+  "_build/install/default/lib/eight/opam"
+]
+bin: [
+  "_build/install/default/bin/eight"
+]
