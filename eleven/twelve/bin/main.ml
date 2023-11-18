@@ -2,6 +2,7 @@ type 'a rle =
     | One of 'a
     | Many of int * 'a;;
 
+(* hello from erik *)
 let rec spread_many many acc = 
         let count, element = many in 
         if count > 0 then spread_many (count - 1, element) (element :: acc) else acc
