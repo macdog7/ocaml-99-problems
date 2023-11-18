@@ -17,5 +17,7 @@ let decode list =
                                 | Many (count, element) -> decode_internal (spread_many (count, element) acc) rest 
         in decode_internal [] list;;
 
-let _ = List.rev (decode [Many (4, "a"); One "b"; Many (2, "c"); Many (2, "a"); One "d"; Many (4, "e")]);;
+let result = List.rev (decode [Many (4, "a"); One "b"; Many (2, "c"); Many (2, "a"); One "d"; Many (4, "e")]);;
+
+List.iter print_endline result;;
 
