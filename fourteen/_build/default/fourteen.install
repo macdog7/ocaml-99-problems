@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/fourteen/META"
+  "_build/install/default/lib/fourteen/dune-package"
+  "_build/install/default/lib/fourteen/opam"
+]
+bin: [
+  "_build/install/default/bin/fourteen"
+]
