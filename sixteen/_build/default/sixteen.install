@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/sixteen/META"
+  "_build/install/default/lib/sixteen/dune-package"
+  "_build/install/default/lib/sixteen/opam"
+]
+bin: [
+  "_build/install/default/bin/sixteen"
+]
